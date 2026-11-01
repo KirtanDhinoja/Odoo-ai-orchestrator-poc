@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-02-23T10:47:07.011539Z",
+  "products": [
+    {
+      "product_id": 1001,
+      "sku": "SKU-1001",
+      "name": "Accessories - Haven 282",
+      "category": "Accessories",
+      "flags": {"nicotine": false, "thc": false, "cbd": false, "kratom": false, "mushroom": false},
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 35.43,
+      "popularity_score": 0.18
+    },
+    {
+      "product_id": 1002,
+      "sku": "SKU-1002",
+      "name": "Nicotine Vape - Cloud 90",
+      "category": "Nicotine Vape",
+      "flags": {"nicotine": true, "thc": false, "cbd": false, "kratom": false, "mushroom": false},
+      "blocked_states": ["MA"],
+      "lab_report_required": false,
+      "price": 74.14,
+      "popularity_score": 0.08
+    },
+    {
+      "product_id": 1034,
+      "sku": "SKU-1034",
+      "name": "THC Beverage - Cloud 460",
+      "category": "THC Beverage",
+      "flags": {"nicotine": false, "thc": true, "cbd": false, "kratom": false, "mushroom": false},
+      "blocked_states": ["ID", "UT", "CA"],
+      "lab_report_required": true,
+      "price": 23.70,
+      "popularity_score": 0.221
+    }
+  ],
+  "inventory": [
+    {"product_id": 1001, "warehouse": "WH-East", "qty": 150},
+    {"product_id": 1002, "warehouse": "WH-East", "qty": 45},
+    {"product_id": 1034, "warehouse": "WH-West", "qty": 12}
+  ],
+  "kb_docs": [
+    {
+      "doc_id": "SOP-RETURNS",
+      "title": "Returns SOP",
+      "visibility": "internal",
+      "text": "Returns are accepted within 14 days for unopened items. Restocking fee may apply."
+    },
+    {
+      "doc_id": "POLICY-SHIPPING",
+      "title": "Shipping Policy",
+      "visibility": "public",
+      "text": "We ship via LTL freight for most distributor orders. Delivery estimates vary by warehouse and destination."
+    },
+    {
+      "doc_id": "SOP-VENDOR-UPLOAD",
+      "title": "Vendor Catalog Upload Guide",
+      "visibility": "vendor",
+      "text": "Upload via Excel template. Required fields include Net Wt (oz), Net Vol (ml), nicotine content, images, and state restrictions if applicable."
+    }
+  ]
+}
